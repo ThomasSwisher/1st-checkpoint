@@ -1,0 +1,45 @@
+h3 {
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.hero-img {
+    background-image: url("/Covid19_WebSlider_02-08-21-p2o186ws9b2fuyee0y5ylk1ygjkwy1jihwm6johpzu.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    min-width: 200px;
+    position: relative;
+
+}
+
+.custom-color {
+    background-color:rgba(192,192,192,0.8)
+}
+
+.custom-button {
+    color: red;
+    background-color: white;
+}
+
+.min-size {
+    min-width: 300px;
+}
+
+.position-card {
+    position: absolute;
+    right: 400px;
+}
+
+.image-size {
+    
+}
+
