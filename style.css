@@ -11,11 +11,12 @@ h3 {
     color: white;
 }
 
+
 .hero-img {
     background-image: url("/Covid19_WebSlider_02-08-21-p2o186ws9b2fuyee0y5ylk1ygjkwy1jihwm6johpzu.jpg");
     background-position: center;
     background-size: cover;
-    min-height: 60vh;
+    min-height: 80vh;
     min-width: 200px;
     position: relative;
 
@@ -36,10 +37,15 @@ h3 {
 
 .position-card {
     position: absolute;
-    right: 400px;
+    right: 225px;
+    margin-top: 10rem;
 }
 
-.image-size {
-    
+.pic-row-color {
+    background-color: #2C9250;
+}
+
+.fa-user-shield {
+    font-size: 5rem;
 }
 
