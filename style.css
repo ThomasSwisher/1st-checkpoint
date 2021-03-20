@@ -1,5 +1,14 @@
 h3 {
+    color: #2C9250;
+}
+
+h2 {
     color: white;
+}
+
+.text-overgreen {
+    color: white;
+    font-size: 22px;
 }
 
 .center {
@@ -10,7 +19,6 @@ h3 {
 .color-white {
     color: white;
 }
-
 
 .hero-img {
     background-image: url("/Covid19_WebSlider_02-08-21-p2o186ws9b2fuyee0y5ylk1ygjkwy1jihwm6johpzu.jpg");
@@ -41,11 +49,60 @@ h3 {
     margin-top: 10rem;
 }
 
-.pic-row-color {
-    background-color: #2C9250;
-}
-
 .fa-user-shield {
     font-size: 5rem;
 }
 
+.color-size {
+    background-color: #2C9250;
+    height: 250px;
+}
+
+.img-overlay {
+    max-height: 60vh;
+    min-width: 20vh;
+}
+
+.gray-bar {
+    position: relative;
+}
+
+.fas {
+    margin-right: 1rem;
+}
+
+.position-providers {
+    max-width: 60rem;
+}
+
+.provider-cta {
+    display: block;
+    width: 100%;
+    background-color: #2c9250;
+    max-width: 60rem;
+}
+
+.button-shadow {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.5)!important;
+}
+
+.fa-calendar-check {
+    margin-right: 1rem;
+}
+
+.fa-user-check {
+    margin-right: .5rem;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.star-structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 45px;
+    color: #2c9250;
+    margin-bottom: 1rem;
+}
