@@ -132,8 +132,14 @@ a {
     width: 100%;
 }
 
-.navbar {    
-    background-color: white;
+.sticky-nav {
+    position: sticky;
+    overflow: unset;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background: white;
 }
 
 @media(max-width: 767px) {
@@ -147,5 +153,11 @@ a {
         right: 0;
         margin-top: 0rem;
     }
+    
+    .mob-view {
+        margin-top: 11rem;
+        flex-direction: column-reverse;
+    }
 
 }
+
