@@ -2,12 +2,21 @@ h3 {
     color: #2C9250;
 }
 
+.custom-color h3 {
+    color:#3e1118;
+}
+
 h2 {
     color: white;
 }
 
 a {
     color: #2C9250;
+}
+
+input [type="text"] {
+    color:#3e1118;
+    border: none !important;
 }
 
 .text-overgreen {
@@ -31,7 +40,6 @@ a {
     min-height: 80vh;
     min-width: 200px;
     position: relative;
-
 }
 
 .custom-color {
@@ -39,7 +47,12 @@ a {
 }
 
 .custom-button {
-    color: red;
+    color: white;
+    background-color: #3e1118;
+}
+
+.custom-button:hover {
+    color: #3e1118;
     background-color: white;
 }
 
@@ -51,7 +64,7 @@ a {
     position: absolute;
     right: 225px;
     margin-top: 10rem;
-    max-width: 35rem;
+    min-width: 24rem;
 }
 
 .fa-user-shield {
@@ -61,6 +74,10 @@ a {
 .color-size {
     background-color: #2C9250;
     height: 250px;
+}
+
+.color-size .col {
+    max-width: 50rem;
 }
 
 .img-overlay {
@@ -145,7 +162,6 @@ a {
 @media(max-width: 767px) {
     footer .col {
         flex-direction: column;
-        column-count: 2;
     }
 
     .position-card {
@@ -155,12 +171,18 @@ a {
     }
     
     .mob-view {
-        margin-top: 11rem;
+        margin-top: 15rem;
         flex-direction: column-reverse;
     }
 
     .order-mobile {
         order: -1;
+    }
+
+    .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 
 }
