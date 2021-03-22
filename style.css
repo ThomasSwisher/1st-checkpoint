@@ -39,8 +39,6 @@ input [type="text"] {
 
 .hero-img {
     background-image: url("/Covid19_WebSlider_02-08-21-p2o186ws9b2fuyee0y5ylk1ygjkwy1jihwm6johpzu.jpg");
-    background-position: center;
-    background-size: cover;
     min-height: 80vh;
     min-width: 200px;
     position: relative;
